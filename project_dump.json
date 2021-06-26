@@ -1,0 +1,955 @@
+[
+{
+    "model": "cars.car",
+    "pk": 1,
+    "fields": {
+        "car_title": "2017 Ferrari 488 GTB",
+        "state": "AL",
+        "city": "newyo",
+        "color": "white",
+        "model": "488 GTB",
+        "year": 2017,
+        "condition": "used",
+        "price": 10000,
+        "car_photo": "photos/2021/06/25/1902536891.jpg",
+        "car_photo_1": "",
+        "car_photo_2": "",
+        "car_photo_3": "",
+        "car_photo_4": "",
+        "body_style": "sport",
+        "engine": "engine",
+        "transmission": "automatic",
+        "interior": "grey",
+        "miles": 2000,
+        "doors": "2",
+        "passengers": 2,
+        "vin_no": "124124",
+        "milage": 20,
+        "fuel_type": "petrol",
+        "no_of_owners": "1",
+        "is_featured": true,
+        "created_date": "2021-05-05T18:11:56Z"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 2,
+    "fields": {
+        "car_title": "2017 Ford Edge",
+        "state": "AR",
+        "city": "rols",
+        "color": "black",
+        "model": "Edge",
+        "year": 2017,
+        "condition": "used",
+        "price": 7000,
+        "car_photo": "photos/2021/06/25/1901478607.jpg",
+        "car_photo_1": "",
+        "car_photo_2": "",
+        "car_photo_3": "",
+        "car_photo_4": "",
+        "body_style": "mountain",
+        "engine": "engine",
+        "transmission": "automatic",
+        "interior": "black",
+        "miles": 5000,
+        "doors": "4",
+        "passengers": 6,
+        "vin_no": "124112",
+        "milage": 20,
+        "fuel_type": "petrol",
+        "no_of_owners": "3",
+        "is_featured": true,
+        "created_date": "2021-05-10T18:18:21Z"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 3,
+    "fields": {
+        "car_title": "2017 Ford F-250 Super Duty",
+        "state": "DC",
+        "city": "los",
+        "color": "black",
+        "model": "F-250 Super Duty",
+        "year": 2017,
+        "condition": "used",
+        "price": 10000,
+        "car_photo": "photos/2021/06/25/1894300894.jpg",
+        "car_photo_1": "",
+        "car_photo_2": "",
+        "car_photo_3": "",
+        "car_photo_4": "",
+        "body_style": "mountain",
+        "engine": "engine",
+        "transmission": "automatic",
+        "interior": "black",
+        "miles": 5000,
+        "doors": "2",
+        "passengers": 6,
+        "vin_no": "124142",
+        "milage": 5,
+        "fuel_type": "petrol",
+        "no_of_owners": "2",
+        "is_featured": false,
+        "created_date": "2021-04-02T18:20:02Z"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 4,
+    "fields": {
+        "car_title": "2018 Toyota 4Runner",
+        "state": "GA",
+        "city": "geo",
+        "color": "grey",
+        "model": "4Runner",
+        "year": 2018,
+        "condition": "used",
+        "price": 5000,
+        "car_photo": "photos/2021/06/25/1893633875.jpg",
+        "car_photo_1": "",
+        "car_photo_2": "",
+        "car_photo_3": "",
+        "car_photo_4": "",
+        "body_style": "sport",
+        "engine": "engine",
+        "transmission": "automatic",
+        "interior": "grey",
+        "miles": 13000,
+        "doors": "4",
+        "passengers": 4,
+        "vin_no": "1242",
+        "milage": 7,
+        "fuel_type": "petrol",
+        "no_of_owners": "1",
+        "is_featured": true,
+        "created_date": "2021-06-20T18:21:24Z"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 2,
+    "fields": {
+        "first_name": "Gregory",
+        "last_name": "Gregory",
+        "designation": "Web Developer",
+        "photo": "photos/2021/06/25/avatar-11_l0I6VBD.jpg",
+        "facebook_link": "https://www.facebook.com/",
+        "twitter_link": "https://www.Twitter.com/",
+        "google_plus_link": "https://www.Google.com/",
+        "created_date": "2021-06-25T13:05:29.723Z"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 3,
+    "fields": {
+        "first_name": "Roman",
+        "last_name": "Roman",
+        "designation": "Web Developer",
+        "photo": "photos/2021/06/25/avatar-3_jtnBUjq.jpg",
+        "facebook_link": "https://www.facebook.com/",
+        "twitter_link": "https://www.Twitter.com/",
+        "google_plus_link": "https://www.Google.com/",
+        "created_date": "2021-06-25T13:05:46.645Z"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 4,
+    "fields": {
+        "first_name": "Brandon",
+        "last_name": "Brandon",
+        "designation": "Support Manager",
+        "photo": "photos/2021/06/25/avatar-12.jpg",
+        "facebook_link": "https://www.facebook.com/",
+        "twitter_link": "https://www.Twitter.com/",
+        "google_plus_link": "https://www.Google.com/",
+        "created_date": "2021-06-25T13:06:03.639Z"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 5,
+    "fields": {
+        "first_name": "Nikita",
+        "last_name": "Nikita",
+        "designation": "manager",
+        "photo": "photos/2021/06/25/avatar-1.jpg",
+        "facebook_link": "https://www.facebook.com/",
+        "twitter_link": "https://www.Twitter.com/",
+        "google_plus_link": "https://www.Google.com/",
+        "created_date": "2021-06-25T13:06:31.660Z"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 6,
+    "fields": {
+        "first_name": "Veronica",
+        "last_name": "Veronica",
+        "designation": "Creative Director",
+        "photo": "photos/2021/06/25/avatar-2.jpg",
+        "facebook_link": "https://www.facebook.com/",
+        "twitter_link": "https://www.Twitter.com/",
+        "google_plus_link": "https://www.Google.com/",
+        "created_date": "2021-06-25T13:06:55.261Z"
+    }
+},
+{
+    "model": "contacts.contact",
+    "pk": 1,
+    "fields": {
+        "first_name": "Brandon",
+        "last_name": "Nikita",
+        "car_id": 4,
+        "customer_need": "I'd like to know your best price for this",
+        "car_title": "2018 Toyota 4Runner",
+        "city": "ge",
+        "state": "ge",
+        "email": "john@gmail.com",
+        "phone": "3123123123",
+        "message": "hi",
+        "user_id": 2,
+        "create_date": "2021-06-26T14:36:11.070Z"
+    }
+},
+{
+    "model": "contacts.contact",
+    "pk": 2,
+    "fields": {
+        "first_name": "Nikita",
+        "last_name": "Roman",
+        "car_id": 4,
+        "customer_need": "I'd like a history report for this",
+        "car_title": "2018 Toyota 4Runner",
+        "city": "los",
+        "state": "ge",
+        "email": "qweqwe@gmail.com",
+        "phone": "31231231235",
+        "message": "hello",
+        "user_id": 0,
+        "create_date": "2021-06-26T14:39:59.147Z"
+    }
+},
+{
+    "model": "contacts.contact",
+    "pk": 3,
+    "fields": {
+        "first_name": "John",
+        "last_name": "John",
+        "car_id": 2,
+        "customer_need": "I'm interested in this",
+        "car_title": "2017 Ford Edge",
+        "city": "eee",
+        "state": "eee",
+        "email": "john@gmail.com",
+        "phone": "",
+        "message": "www",
+        "user_id": 2,
+        "create_date": "2021-06-26T14:51:35.066Z"
+    }
+},
+{
+    "model": "contacts.contact",
+    "pk": 4,
+    "fields": {
+        "first_name": "Brandon",
+        "last_name": "Roman",
+        "car_id": 4,
+        "customer_need": "I'd like to test drive this",
+        "car_title": "2018 Toyota 4Runner",
+        "city": "los",
+        "state": "wf",
+        "email": "qweqwe@gmail.com",
+        "phone": "3123123123",
+        "message": "test message",
+        "user_id": 0,
+        "create_date": "2021-06-26T15:04:13.496Z"
+    }
+},
+{
+    "model": "contacts.contact",
+    "pk": 5,
+    "fields": {
+        "first_name": "eias",
+        "last_name": "Fa",
+        "car_id": 2,
+        "customer_need": "I'm interested in this",
+        "car_title": "2017 Ford Edge",
+        "city": "los",
+        "state": "eee",
+        "email": "eias778@gmail.com",
+        "phone": "31231231235",
+        "message": "hello",
+        "user_id": 1,
+        "create_date": "2021-06-26T15:23:37.849Z"
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$180000$z3BmgjTjMiZy$LVeYXWICafFNEWJOnM9GKdHpK01XMVHp31PR/koIzrE=",
+        "last_login": "2021-06-26T11:46:04Z",
+        "is_superuser": true,
+        "username": "djangoadmin",
+        "first_name": "eias",
+        "last_name": "Fa",
+        "email": "eias778@gmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2021-06-25T12:39:45Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$180000$dKig2uubnaDC$+w4wTSOBrf2xePnop7/iBEmvLOnckJ2JMEcnSdJiRiw=",
+        "last_login": "2021-06-26T11:51:23.788Z",
+        "is_superuser": false,
+        "username": "master",
+        "first_name": "John",
+        "last_name": "John",
+        "email": "john@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2021-06-25T23:48:13.585Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "4lop9d23swj4m76zs9mw8cgzopkeyxws",
+    "fields": {
+        "session_data": "NDY5MGY0MzQzZTYxYWNkMjU5Mjk2YzRlNmE5MGJhNzc3MDU5MjJmMTp7InNvY2lhbGFjY291bnRfc3RhdGUiOlt7Im5leHQiOiIvYWNjb3VudHMvZGFzaGJvYXJkIiwicHJvY2VzcyI6ImxvZ2luIiwic2NvcGUiOiIiLCJhdXRoX3BhcmFtcyI6IiJ9LCJtbmFwVERCQmlHT0giXX0=",
+        "expire_date": "2021-07-10T12:29:13.155Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "yh0cea3zucop1830kv3i0nvri569phyw",
+    "fields": {
+        "session_data": "YjVlYjU1YTg1YjgyZWQ4OTJjZTk3ZWE3OTg4MDQwZDc2M2M0ZWIxNzp7InNvY2lhbGFjY291bnRfc3RhdGUiOlt7InByb2Nlc3MiOiJsb2dpbiIsInNjb3BlIjoiIiwiYXV0aF9wYXJhbXMiOiIifSwiSDlHbVFrc1NVVzk0Il19",
+        "expire_date": "2021-07-10T12:29:54.647Z"
+    }
+},
+{
+    "model": "sites.site",
+    "fields": {
+        "domain": "localhost:8000",
+        "name": "localhost:8000"
+    }
+},
+{
+    "model": "socialaccount.socialapp",
+    "pk": 1,
+    "fields": {
+        "provider": "facebook",
+        "name": "Facebook login",
+        "client_id": "885965381998405",
+        "secret": "13a48f34bf30958ae39237c23066a552",
+        "key": "",
+        "sites": [
+            [
+                "localhost:8000"
+            ]
+        ]
+    }
+},
+{
+    "model": "socialaccount.socialapp",
+    "pk": 2,
+    "fields": {
+        "provider": "google",
+        "name": "Google login",
+        "client_id": "509122092228-90f0om5hbqgt6mgdqspon3v2qpkhothk.apps.googleusercontent.com",
+        "secret": "uNbTgMsHRlcDNzjMzfnOZpyz",
+        "key": "",
+        "sites": [
+            [
+                "localhost:8000"
+            ]
+        ]
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2021-06-25T12:55:12.532Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "1",
+        "object_repr": "eias",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2021-06-25T13:00:08.817Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "1",
+        "object_repr": "eias",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2021-06-25T13:00:23.121Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "1",
+        "object_repr": "eias",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2021-06-25T13:00:50.882Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "1",
+        "object_repr": "eias",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2021-06-25T13:05:29.725Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "2",
+        "object_repr": "Gregory",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2021-06-25T13:05:46.646Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "3",
+        "object_repr": "Roman",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2021-06-25T13:06:03.640Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "4",
+        "object_repr": "Brandon",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2021-06-25T13:06:31.661Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "5",
+        "object_repr": "Nikita",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2021-06-25T13:06:55.262Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "6",
+        "object_repr": "Veronica",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2021-06-25T15:15:12.452Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "1",
+        "object_repr": "Car object (1)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2021-06-25T15:19:53.257Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "2",
+        "object_repr": "Car object (2)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2021-06-25T15:21:12.309Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "3",
+        "object_repr": "Car object (3)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2021-06-25T15:22:32.583Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "4",
+        "object_repr": "Car object (4)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+        "action_time": "2021-06-25T15:34:07.228Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "4",
+        "object_repr": "2018 Toyota 4Runner",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Is featured\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+        "action_time": "2021-06-25T15:34:12.873Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "2",
+        "object_repr": "2017 Ford Edge",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Is featured\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+        "action_time": "2021-06-25T15:39:48.981Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "4",
+        "object_repr": "2018 Toyota 4Runner",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Is featured\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+        "action_time": "2021-06-25T15:39:51.130Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "4",
+        "object_repr": "2018 Toyota 4Runner",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Is featured\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+        "action_time": "2021-06-25T15:51:06.728Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "3",
+        "object_repr": "2017 Ford F-250 Super Duty",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Is featured\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+        "action_time": "2021-06-25T16:00:43.707Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "1",
+        "object_repr": "2017 Ferrari 488 GTB",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Is featured\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+        "action_time": "2021-06-25T16:01:02.182Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "3",
+        "object_repr": "2017 Ford F-250 Super Duty",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Is featured\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+        "action_time": "2021-06-25T16:49:50.741Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "4",
+        "object_repr": "2018 Toyota 4Runner",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+        "action_time": "2021-06-25T16:51:18.881Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "4",
+        "object_repr": "2018 Toyota 4Runner",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Miles\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+        "action_time": "2021-06-25T16:51:25.136Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "3",
+        "object_repr": "2017 Ford F-250 Super Duty",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Miles\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+        "action_time": "2021-06-25T16:51:34.193Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "2",
+        "object_repr": "2017 Ford Edge",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Milage\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+        "action_time": "2021-06-25T16:51:42.756Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "1",
+        "object_repr": "2017 Ferrari 488 GTB",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Milage\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+        "action_time": "2021-06-25T16:52:24.390Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "1",
+        "object_repr": "2017 Ferrari 488 GTB",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Miles\", \"Milage\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+        "action_time": "2021-06-25T16:52:42.019Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "2",
+        "object_repr": "2017 Ford Edge",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Miles\", \"Milage\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+        "action_time": "2021-06-26T09:47:09.074Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "socialaccount",
+            "socialapp"
+        ],
+        "object_id": "1",
+        "object_repr": "Facebook login",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+        "action_time": "2021-06-26T09:49:35.533Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "sites",
+            "site"
+        ],
+        "object_id": "1",
+        "object_repr": "localhost:8000",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Domain name\", \"Display name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+        "action_time": "2021-06-26T10:14:50.446Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "socialaccount",
+            "socialapp"
+        ],
+        "object_id": "2",
+        "object_repr": "Google login",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+        "action_time": "2021-06-26T10:43:51.120Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "socialaccount",
+            "socialapp"
+        ],
+        "object_id": "1",
+        "object_repr": "Facebook login",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Client id\", \"Secret key\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 32,
+    "fields": {
+        "action_time": "2021-06-26T11:46:21.325Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "1",
+        "object_repr": "djangoadmin",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\"]}}]"
+    }
+}
+]
