@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'm3qw&=)zfsbmk%met^d^i7ixdavj7wc8c)3iyf#z_n9--r0ri+'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['agile-fortress-93573.herokuapp.com']
 
