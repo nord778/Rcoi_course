@@ -74,7 +74,7 @@ def search(request) :
             cars = cars.filter(price__gte=min_price, price__lte=max_price)
 
 
-    data={
+    data= {
         'cars': cars,
         'model_search': model_search,
         'city_search': city_search,
