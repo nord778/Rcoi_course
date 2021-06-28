@@ -2,7 +2,7 @@ from django.db import models
 from datetime import datetime
 
 # Create your models here.
-class Car(models.Model):
+class Car(models.Model) :
 
     state_choice = (
         ('AL', 'Alabama'),
@@ -59,8 +59,8 @@ class Car(models.Model):
     )
 
     year_choice = []
-    for r in range(2000, (datetime.now().year+1)):
-        year_choice.append((r,r))
+    for r in range(2000, (datetime.now().year+1)) :
+        year_choice.append((r, r))
 
     door_choices = (
         ('2', '2'),

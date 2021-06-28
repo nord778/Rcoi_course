@@ -3,7 +3,7 @@ from .models import Car
 from django.core.paginator import EmptyPage, PageNotAnInteger, Paginator
 
 # Create your views here.
-def cars(request):
+def cars(request) :
     cars = Car.objects.order_by('-created_date')
     paginator = Paginator(cars, 2)
     page = request.GET.get('page')
@@ -21,7 +21,7 @@ def cars(request):
         'year_search': year_search,
         'body_style_search': body_style_search,
     }
-    return render(request, 'cars/cars.html',data)
+    return render(request, 'cars/cars.html', data)
 
 
 def car_detail(request, id):
@@ -32,7 +32,7 @@ def car_detail(request, id):
 
     return render(request, 'cars/car_detail.html', data)
 
-def search(request):
+def search(request) :
     cars = Car.objects.order_by('-created_date')
 
     model_search = Car.objects.values_list('model', flat=True).distinct()
@@ -42,7 +42,7 @@ def search(request):
     transmission_search = Car.objects.values_list('transmission', flat=True).distinct()
 
 
-    if 'keyword' in request.GET:
+    if'keyword' in request.GET:
         keyword = request.GET['keyword']
         if keyword:
             cars = cars.filter(model=keyword)
@@ -74,7 +74,7 @@ def search(request):
             cars = cars.filter(price__gte=min_price, price__lte=max_price)
 
 
-    data = {
+    data={
         'cars': cars,
         'model_search': model_search,
         'city_search': city_search,
@@ -82,4 +82,4 @@ def search(request):
         'body_style_search': body_style_search,
         'transmission_search': transmission_search,
         }
-    return render(request, 'cars/search.html',data)
+    return render(request, 'cars/search.html', data)
