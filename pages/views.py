@@ -6,7 +6,7 @@ from django.core.mail import send_mail
 from django.contrib import messages
 
 # Create your views here.
-def home(request) :
+def home(request):
     teams = Team.objects.all()
     featured_cars = Car.objects.order_by('-created_date').filter(is_featured=True)
     all_cars = Car.objects.order_by('-created_date')
