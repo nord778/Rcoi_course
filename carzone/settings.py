@@ -79,7 +79,18 @@ WSGI_APPLICATION = 'carzone.wsgi.application'
 
 
 
-DATABASES = {'default': dj_database_url.config(default='postgres://postgres:0000@localhost/carproj_db')}
+#DATABASES = {'default': dj_database_url.config(default='postgres://postgres:0000@localhost/carproj_db')}
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'd4o8rgum9or0lg',
+        'USER': 'cuefmyzglgkeab',
+        'PASSWORD': '56cc35bf786e1673d7c4abdf117c1689bca7aa0d21d7ae605511092f15a827b2',
+        'HOST': 'ec2-107-21-10-179.compute-1.amazonaws.com',
+        'PORT': '5432',
+    }
+}
 
 
 
